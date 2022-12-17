@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(adiyogi.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header{
+    position: relative;
+    text-decoration: none;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    letter-spacing: 1px;
+    text-decoration-line: none;
+    color: #0000;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+    
+}
+
+header .navigation a{
+    color: black;
+    background: rgb(82, 80, 216);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+}
+
+header .navigation a:hover{
+    background: #fff;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+    font-weight: 500;
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #fff;
+}
+.media-icons .a{
+    position: relative;
+    font-size: 250px;
+}
+
+
